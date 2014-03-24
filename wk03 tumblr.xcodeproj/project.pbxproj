@@ -19,6 +19,18 @@
 		CF8EE6C318DBB25F009FB3DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8EE6AB18DBB25F009FB3DD /* UIKit.framework */; };
 		CF8EE6CB18DBB25F009FB3DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF8EE6C918DBB25F009FB3DD /* InfoPlist.strings */; };
 		CF8EE6CD18DBB260009FB3DD /* wk03_tumblrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EE6CC18DBB260009FB3DD /* wk03_tumblrTests.m */; };
+		CF8EE6DC18DBB36D009FB3DD /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EE6DA18DBB36D009FB3DD /* homeViewController.m */; };
+		CF8EE6DD18DBB36D009FB3DD /* homeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8EE6DB18DBB36D009FB3DD /* homeViewController.xib */; };
+		CF8EE6E118DC8A75009FB3DD /* dashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EE6DF18DC8A75009FB3DD /* dashboardViewController.m */; };
+		CF8EE6E218DC8A75009FB3DD /* dashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8EE6E018DC8A75009FB3DD /* dashboardViewController.xib */; };
+		CF8EE6E618DC8A87009FB3DD /* searchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EE6E418DC8A87009FB3DD /* searchViewController.m */; };
+		CF8EE6E718DC8A87009FB3DD /* searchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8EE6E518DC8A87009FB3DD /* searchViewController.xib */; };
+		CF8EE6EB18DC8A93009FB3DD /* composeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EE6E918DC8A93009FB3DD /* composeViewController.m */; };
+		CF8EE6EC18DC8A93009FB3DD /* composeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8EE6EA18DC8A93009FB3DD /* composeViewController.xib */; };
+		CF8EE6F318DC8ADE009FB3DD /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EE6F118DC8ADD009FB3DD /* profileViewController.m */; };
+		CF8EE6F418DC8ADE009FB3DD /* profileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8EE6F218DC8ADD009FB3DD /* profileViewController.xib */; };
+		CF8EE6F818DC8AEF009FB3DD /* trendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EE6F618DC8AEF009FB3DD /* trendingViewController.m */; };
+		CF8EE6F918DC8AEF009FB3DD /* trendingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8EE6F718DC8AEF009FB3DD /* trendingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,24 @@
 		CF8EE6C818DBB25F009FB3DD /* wk03 tumblrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wk03 tumblrTests-Info.plist"; sourceTree = "<group>"; };
 		CF8EE6CA18DBB25F009FB3DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF8EE6CC18DBB260009FB3DD /* wk03_tumblrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wk03_tumblrTests.m; sourceTree = "<group>"; };
+		CF8EE6D918DBB36D009FB3DD /* homeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		CF8EE6DA18DBB36D009FB3DD /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
+		CF8EE6DB18DBB36D009FB3DD /* homeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeViewController.xib; sourceTree = "<group>"; };
+		CF8EE6DE18DC8A75009FB3DD /* dashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dashboardViewController.h; sourceTree = "<group>"; };
+		CF8EE6DF18DC8A75009FB3DD /* dashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dashboardViewController.m; sourceTree = "<group>"; };
+		CF8EE6E018DC8A75009FB3DD /* dashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dashboardViewController.xib; sourceTree = "<group>"; };
+		CF8EE6E318DC8A87009FB3DD /* searchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchViewController.h; sourceTree = "<group>"; };
+		CF8EE6E418DC8A87009FB3DD /* searchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchViewController.m; sourceTree = "<group>"; };
+		CF8EE6E518DC8A87009FB3DD /* searchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = searchViewController.xib; sourceTree = "<group>"; };
+		CF8EE6E818DC8A93009FB3DD /* composeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = composeViewController.h; sourceTree = "<group>"; };
+		CF8EE6E918DC8A93009FB3DD /* composeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = composeViewController.m; sourceTree = "<group>"; };
+		CF8EE6EA18DC8A93009FB3DD /* composeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = composeViewController.xib; sourceTree = "<group>"; };
+		CF8EE6F018DC8ADD009FB3DD /* profileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
+		CF8EE6F118DC8ADD009FB3DD /* profileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profileViewController.m; sourceTree = "<group>"; };
+		CF8EE6F218DC8ADD009FB3DD /* profileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profileViewController.xib; sourceTree = "<group>"; };
+		CF8EE6F518DC8AEF009FB3DD /* trendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trendingViewController.h; sourceTree = "<group>"; };
+		CF8EE6F618DC8AEF009FB3DD /* trendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trendingViewController.m; sourceTree = "<group>"; };
+		CF8EE6F718DC8AEF009FB3DD /* trendingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = trendingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +140,24 @@
 				CF8EE6B618DBB25F009FB3DD /* AppDelegate.h */,
 				CF8EE6B718DBB25F009FB3DD /* AppDelegate.m */,
 				CF8EE6B918DBB25F009FB3DD /* Images.xcassets */,
+				CF8EE6D918DBB36D009FB3DD /* homeViewController.h */,
+				CF8EE6DA18DBB36D009FB3DD /* homeViewController.m */,
+				CF8EE6DB18DBB36D009FB3DD /* homeViewController.xib */,
+				CF8EE6DE18DC8A75009FB3DD /* dashboardViewController.h */,
+				CF8EE6DF18DC8A75009FB3DD /* dashboardViewController.m */,
+				CF8EE6E018DC8A75009FB3DD /* dashboardViewController.xib */,
+				CF8EE6E318DC8A87009FB3DD /* searchViewController.h */,
+				CF8EE6E418DC8A87009FB3DD /* searchViewController.m */,
+				CF8EE6E518DC8A87009FB3DD /* searchViewController.xib */,
+				CF8EE6E818DC8A93009FB3DD /* composeViewController.h */,
+				CF8EE6E918DC8A93009FB3DD /* composeViewController.m */,
+				CF8EE6EA18DC8A93009FB3DD /* composeViewController.xib */,
+				CF8EE6F018DC8ADD009FB3DD /* profileViewController.h */,
+				CF8EE6F118DC8ADD009FB3DD /* profileViewController.m */,
+				CF8EE6F218DC8ADD009FB3DD /* profileViewController.xib */,
+				CF8EE6F518DC8AEF009FB3DD /* trendingViewController.h */,
+				CF8EE6F618DC8AEF009FB3DD /* trendingViewController.m */,
+				CF8EE6F718DC8AEF009FB3DD /* trendingViewController.xib */,
 				CF8EE6AE18DBB25F009FB3DD /* Supporting Files */,
 			);
 			path = "wk03 tumblr";
@@ -219,8 +267,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8EE6F418DC8ADE009FB3DD /* profileViewController.xib in Resources */,
+				CF8EE6DD18DBB36D009FB3DD /* homeViewController.xib in Resources */,
+				CF8EE6E718DC8A87009FB3DD /* searchViewController.xib in Resources */,
 				CF8EE6B218DBB25F009FB3DD /* InfoPlist.strings in Resources */,
+				CF8EE6EC18DC8A93009FB3DD /* composeViewController.xib in Resources */,
+				CF8EE6F918DC8AEF009FB3DD /* trendingViewController.xib in Resources */,
 				CF8EE6BA18DBB25F009FB3DD /* Images.xcassets in Resources */,
+				CF8EE6E218DC8A75009FB3DD /* dashboardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8EE6F318DC8ADE009FB3DD /* profileViewController.m in Sources */,
 				CF8EE6B818DBB25F009FB3DD /* AppDelegate.m in Sources */,
+				CF8EE6E618DC8A87009FB3DD /* searchViewController.m in Sources */,
 				CF8EE6B418DBB25F009FB3DD /* main.m in Sources */,
+				CF8EE6DC18DBB36D009FB3DD /* homeViewController.m in Sources */,
+				CF8EE6F818DC8AEF009FB3DD /* trendingViewController.m in Sources */,
+				CF8EE6E118DC8A75009FB3DD /* dashboardViewController.m in Sources */,
+				CF8EE6EB18DC8A93009FB3DD /* composeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

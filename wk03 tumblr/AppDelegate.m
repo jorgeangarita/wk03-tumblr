@@ -7,16 +7,34 @@
 //
 
 #import "AppDelegate.h"
+#import "homeViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    UIViewController * vc = [[homeViewController alloc] init];
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    nvc.navigationBar.barTintColor = [UIColor colorWithRed:(51/255.0) green:(66/255.0) blue:(86/255.0) alpha:1];
+    nvc.navigationBar.translucent = NO;
+    nvc.navigationBar.tintColor = [UIColor whiteColor];
+    
+    //[[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:(0/255.0) green:(50/255.0) blue:(0/255.0) alpha:0.7], NSForegroundColorAttributeName, [UIFont fontWithName:@"HelveticaNeue-Medium" size:17], NSFontAttributeName, nil]];
+
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:(255/255.0) green:(255/255.0) blue:(255/255.0) alpha:0.6]];
+    
+
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
+    
+    //self.window.backgroundColor = [UIColor colorWithRed:(50/255.0) green:(50/255.0) blue:(150/255.0) alpha:1];
+    //[application setStatusBarStyle:UIStatusBarStyleLightContent];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
